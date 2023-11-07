@@ -56,37 +56,37 @@ header img{
     justify-content: center;
     align-items: center;
 }
-
 .conocenos{
-     width: 450px;
-     height: 350px;
-     border: aqua 20px solid;
-     background-color: blue;
+    width: 450px;
+    height: 350px;
+    border: aqua 20px solid;
+    background-color: blue;
 } 
-    
+   
 .m_v{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    font-family:letra1;
-    color:#ffff;
-            
- }
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   font-family:letra1;
+   color:#ffff;
+           
+}
 
- footer {
-    color: #ffff;
-    display: inline-flex;
-    margin-top: 150px;
+footer {
+   color: #ffff;
+   display: inline-flex;
+   margin-top: 150px;
 }
 
 #img_wasa {
-    width: 25px;
-    height: 25px;
+   width: 25px;
+   height: 25px;
 }
 
 .redes {
-    display: inline-flex;
-    margin-left: 800px;
+   display: inline-flex;
+   margin-left: 800px;
 }
-        
+       
+
