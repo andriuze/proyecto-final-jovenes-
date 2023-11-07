@@ -56,12 +56,13 @@ header img{
     justify-content: center;
     align-items: center;
 }
+
 .conocenos{
     width: 450px;
-    height: 350px;
-    border: aqua 20px solid;
-    background-color: blue;
-} 
+     height: 350px;
+      border: aqua 20px solid;
+     background-color: blue;
+ } 
    
 .m_v{
    display: flex;
