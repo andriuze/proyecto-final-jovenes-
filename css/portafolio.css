@@ -73,6 +73,39 @@ padding: 10px;
 font-family: letra;
 justify-content: center;
 align-items: center;
+} 
+
+.cocteles{
+    display: flex;
+    flex-direction: row;
+}
+.cocteles img{
+    width: 200px;
+    height: 200px;
+    padding: 10px ;
+    border-radius: 20px;
+}
+
+.cocktails{
+    display: flex;
+    flex-direction: row;
+
+}
+.cocktails img{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.cocktails p{
+    text-align: center;
+    color: #ffff;
+    font-family: letra1;
+}
+.cocteles p{
+    text-align: center;
+    color: #ffff;
+    font-family: letra1;
 }
 
 .card { 
