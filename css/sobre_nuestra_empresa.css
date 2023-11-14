@@ -1,0 +1,160 @@
+body{
+    background-color: black;
+    background-image: url(/img/fondode.jpg);
+    background-size: 100%;
+    flex-wrap: wrap;
+}
+header{
+    background-color: blue;
+    width: 100%;
+    margin: 0%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+header img{
+    width: 50px;
+    height: 50px;
+}
+.iniciar{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-left: 100px;
+    padding: 10px;
+    background-color: rgb(165, 19, 194);
+    border-radius: 5px;
+    width: 150px;
+    height: 30px;
+    }
+@font-face {
+    font-family:letra;
+    src: url(/font/Blacklisted.ttf);}
+
+.iniciar{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-left: 100px;
+    padding: 10px;
+    background-color: rgb(165, 19, 194);
+    border-radius: 5px;
+    width: 150px;
+    height: 30px;
+    }
+@font-face {
+    font-family:letra;
+    src: url(/font/Blacklisted.ttf);
+        }
+.inicio1{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family:letra;
+    color: #ffff;
+    }
+.inicio2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    }
+      
+a{
+    color: #ffff;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+    font-family: letra;
+    justify-content: center;
+    align-items: center;}
+
+.mision{
+    width: 450px;
+    height: 350px;
+    border: aqua 20px solid;
+    background-color: blue;
+    
+}
+.m_v{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  justify-content: center;
+    font-family:letra1;
+    color:#ffff;
+    
+}
+
+@font-face {
+    font-family:letra1 ;
+    src: url(/font/Gilgan.otf);
+}
+.vision{
+    width: 450px;
+    height: 350px;
+    border: aqua 20px solid;
+    background-color: blue;
+}
+
+.m_v .mision {
+    padding-left: 10px;
+    margin: 30px;
+}
+.m_v .vision{
+    padding-left: 10px;
+    margin: 30px;
+} 
+
+.carrusel-contenedor{
+    width: 80%;
+    overflow: hidden;
+  }
+  
+  .carrusel{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    animation: scroll 4.5s  alternate infinite ease-in-out;
+  }
+  
+  .carrusel li{
+    flex: 1;
+    min-width: 420px;
+  }
+  
+  .carrusel img{
+    border-radius: 50px;
+    width: 400px;
+    height: 400px;
+    padding: 40px;
+  }
+
+  @keyframes scroll{
+    0% {
+        transform: translate(10);
+    }
+    100% {
+        transform: translate(-100%);
+   }
+  }
+        
+ footer {
+color: #ffff;
+display: inline-flex;
+margin-top: 150px;
+}
+        
+#img_wasa {
+width: 25px;
+height: 25px;
+}
+        
+.redes {
+display: inline-flex;
+margin-left: 800px;}
+              
