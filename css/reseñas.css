@@ -1,0 +1,93 @@
+body{
+    background-color: black;
+    background-image: url(/img/fondode.jpg);
+    background-size: 100%;
+    flex-wrap: wrap;
+    
+}
+header{
+    background-color: blue;
+    width: 100%;
+    margin: 0%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+header img{
+    width: 50px;
+    height: 50px;
+} 
+.iniciar{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-left: 100px;
+    padding: 10px;
+ background-color: rgb(165, 19, 194);
+    border-radius: 5px;
+    width: 150px;
+    height: 30px;
+}
+@font-face {
+    font-family:letra;
+    src: url(/font/Blacklisted.ttf);
+}
+.inicio1{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family:letra;
+    color: #ffff;
+}
+.inicio2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+a{
+    color: #ffff;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+    font-family: letra;
+    justify-content: center;
+    align-items: center;
+}
+
+#reseñas{
+    color: #ffff;
+}
+
+
+.review-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+}
+
+.review {
+    text-align: center;
+    max-width: 300px;
+    border: 1px solid #ddd;
+    padding: 1em;
+    margin: 0.5em;
+}
+
+.review img {
+    border-radius: 50%;
+    max-width: 100px;
+}
+
+.client-name {
+    color: #ffff;
+    font-weight: bold;
+}
+
+.review-text {
+    color: #ffff;
+    margin-top: 1em;
+}
