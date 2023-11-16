@@ -1,0 +1,95 @@
+body{
+    background-color: black;
+    background-image: url(/img/fondode.jpg);
+    background-size: 100%;
+    flex-wrap: wrap;
+    
+}
+header{
+    background-color: blue;
+    width: 100%;
+    margin: 0%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+header img{
+    width: 50px;
+    height: 50px;
+} 
+.iniciar{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-left: 100px;
+    padding: 10px;
+ background-color: rgb(165, 19, 194);
+    border-radius: 5px;
+    width: 150px;
+    height: 30px;
+}
+@font-face {
+    font-family:letra;
+    src: url(/font/Blacklisted.ttf);
+}
+.inicio1{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family:letra;
+    color: #ffff;
+}
+.inicio2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+a{
+    color: #ffff;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+    font-family: letra;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario{
+    width: 450px;
+    height: 350px;
+    border: aqua 20px solid;
+    background-color: blue;display: flex;
+    display: flex;
+    justify-content: center;
+}
+.formulario{
+    display: flex;
+    flex-direction: row;
+    font-family:letra1;
+    color:#ffff;
+}
+
+#formulario1{
+    font-family:letra;
+    color: #ffff;
+}
+
+footer {
+    color: #ffff;
+    display: inline-flex;
+    margin-top: 150px;
+}
+
+#img_wasa {
+    width: 25px;
+    height: 25px;
+}
+
+.redes {
+    display: inline-flex;
+    margin-left: 800px;
+}
