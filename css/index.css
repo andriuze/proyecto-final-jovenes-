@@ -57,6 +57,18 @@ header img{
     align-items: center;
 }
 
+#cerrar_sesion{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-left: 100px;
+    padding: 10px;
+ background-color: rgb(165, 19, 194);
+    border-radius: 5px;
+    width: 150px;
+    height: 30px;
+}
+
 .conocenos{
     width: 450px;
      height: 350px;
