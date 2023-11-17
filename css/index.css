@@ -2,7 +2,6 @@ body{
     background-color: black;
     background-image: url(/img/fondode.jpg);
     background-size: 100%;
-    flex-wrap: wrap;
 }
 header{
     background-color: blue;
@@ -101,5 +100,6 @@ footer {
    display: inline-flex;
    margin-left: 800px;
 }
-       
+
+
 
